@@ -3,7 +3,14 @@
 [![codecov](https://codecov.io/gh/yannforget/landsatxplore/branch/master/graph/badge.svg?token=NwVo09Edur)](https://codecov.io/gh/yannforget/landsatxplore)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1291422.svg)](https://zenodo.org/record/4543601)
 
+# CHANGES
+Version 0.14.0
+
+- [EarthExplorer.py](/landsatxplore/earthexplorer.py)
+    - Fixed problem downloading Collection 2 images [(#45)](https://github.com/yannforget/landsatxplore/issues/45)
+    - Fixed problem logging in to USGS API [(#47)](https://github.com/yannforget/landsatxplore/issues/76)
 # Description
+
 
 ![CLI Demo](https://raw.githubusercontent.com/yannforget/landsatxplore/master/demo.gif?s=0.5)
 
