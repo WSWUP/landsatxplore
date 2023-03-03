@@ -4,14 +4,17 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1291422.svg)](https://zenodo.org/record/4543601)
 
 # CHANGES
+
+Version 0.14.1
+- Fixed Landsat 9 downloads
+
 Version 0.14.0
 
 - [EarthExplorer.py](/landsatxplore/earthexplorer.py)
     - Fixed problem downloading Collection 2 images [(#45)](https://github.com/yannforget/landsatxplore/issues/45)
     - Fixed problem logging in to USGS API [(#47)](https://github.com/yannforget/landsatxplore/issues/76)
+
 # Description
-
-
 ![CLI Demo](https://raw.githubusercontent.com/yannforget/landsatxplore/master/demo.gif?s=0.5)
 
 The **landsatxplore** Python package provides an interface to the [EarthExplorer](http://earthexplorer.usgs.gov/) portal to search and download [Landsat Collections](https://landsat.usgs.gov/landsat-collections) scenes through a command-line interface or a Python API.
@@ -30,6 +33,8 @@ The following datasets are supported:
 | Landsat 8 Collection 1 Level 1 | `landsat_8_c1` |
 | Landsat 8 Collection 2 Level 1 | `landsat_ot_c2_l1` |
 | Landsat 8 Collection 2 Level 2 | `landsat_ot_c2_l2` |
+| Landsat 9 Collection 2 Level 1 | `landsat_ot_c2_l1` |
+| Landsat 9 Collection 2 Level 2 | `landsat_ot_c2_l2` |
 | Sentinel 2A | `sentinel_2a` |
 
 
