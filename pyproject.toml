@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "landsatxplore"
+name = "landsatxplore_V2"
 version = "0.14.1"
 description = "Search and download Landsat scenes from EarthExplorer"
 authors = ["Yann Forget <yannforget@mailbox.org>"]
-maintainers = ["Yann Forget <yannforget@mailbox.org>"]
+maintainers = [""]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/yannforget/landsatxplore"
-repository = "https://github.com/yannforget/landsatxplore"
-documentation = "https://github.com/yannforget/landsatxplore"
+homepage = "https://github.com/WSWUP/landsatxplore"
+repository = "https://github.com/WSWUP/landsatxplore"
+documentation = "https://github.com/WSWUP/landsatxplore"
 keywords = [
     "earth observation",
     "remote sesing",
