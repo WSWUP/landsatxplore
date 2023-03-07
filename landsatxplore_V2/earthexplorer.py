@@ -6,9 +6,9 @@ import re
 import requests
 from tqdm import tqdm
 
-from landsatxplore.api import API
-from landsatxplore.errors import EarthExplorerError
-from landsatxplore.util import guess_dataset, is_display_id
+from landsatxplore_V2.api import API
+from landsatxplore_V2.errors import EarthExplorerError
+from landsatxplore_V2.util import guess_dataset, is_display_id
 
 
 EE_URL = "https://earthexplorer.usgs.gov/"

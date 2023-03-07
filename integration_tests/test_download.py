@@ -3,7 +3,7 @@
 import os
 import pytest
 import tempfile
-from landsatxplore.earthexplorer import EarthExplorer, EarthExplorerError
+from landsatxplore_V2.earthexplorer import EarthExplorer, EarthExplorerError
 
 
 TIMEOUT = 100

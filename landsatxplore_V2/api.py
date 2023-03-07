@@ -11,7 +11,7 @@ import time
 import requests
 from shapely.geometry import Point, shape
 
-from landsatxplore.errors import USGSAuthenticationError, USGSError, USGSRateLimitError
+from landsatxplore_V2.errors import USGSAuthenticationError, USGSError, USGSRateLimitError
 
 
 API_URL = "https://m2m.cr.usgs.gov/api/api/json/stable/"

@@ -10,7 +10,7 @@ Version 0.14.1
 
 Version 0.14.0
 
-- [EarthExplorer.py](/landsatxplore/earthexplorer.py)
+- [EarthExplorer.py](/landsatxplore_V2/earthexplorer.py)
     - Fixed problem downloading Collection 2 images [(#45)](https://github.com/yannforget/landsatxplore/issues/45)
     - Fixed problem logging in to USGS API [(#47)](https://github.com/yannforget/landsatxplore/issues/76)
 

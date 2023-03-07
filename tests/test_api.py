@@ -4,7 +4,7 @@ import pytest
 import os
 from datetime import datetime
 from shapely.geometry import Polygon
-from landsatxplore import api, errors, util
+from landsatxplore_V2 import api, errors, util
 
 
 BRUSSELS_AREA = Polygon(

@@ -3,8 +3,8 @@
 import os
 import pytest
 
-from landsatxplore.earthexplorer import EarthExplorer
-from landsatxplore.errors import EarthExplorerError
+from landsatxplore_V2.earthexplorer import EarthExplorer
+from landsatxplore_V2.errors import EarthExplorerError
 
 
 @pytest.fixture(scope="module")

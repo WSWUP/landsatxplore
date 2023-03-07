@@ -41,6 +41,6 @@ class EarthExplorerError(Exception):
 
 
 class LandsatxploreError(Exception):
-    """Base landsatxplore error."""
+    """Base landsatxplore_V2 error."""
 
     pass

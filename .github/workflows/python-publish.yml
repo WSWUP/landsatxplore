@@ -24,7 +24,7 @@ jobs:
       run: poetry install
 
     - name: Run pytest and generate coverage report
-      run: poetry run pytest --cov=./landsatxplore --cov-report=xml
+      run: poetry run pytest --cov=./landsatxplore_V2 --cov-report=xml
       env:
         LANDSATXPLORE_USERNAME: ${{ secrets.LANDSATXPLORE_TEST_USERNAME }}
         LANDSATXPLORE_PASSWORD: ${{ secrets.LANDSATXPLORE_TEST_PASSWORD }}

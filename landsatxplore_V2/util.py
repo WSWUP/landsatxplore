@@ -1,6 +1,6 @@
 """Utility functions."""
 
-from landsatxplore.errors import LandsatxploreError
+from landsatxplore_V2.errors import LandsatxploreError
 
 
 def _is_landsat_product_id(id):

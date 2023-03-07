@@ -2,7 +2,7 @@
 
 from click.testing import CliRunner
 
-from landsatxplore.cli import cli
+from landsatxplore_V2.cli import cli
 
 
 def test_search():
